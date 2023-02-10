@@ -2,8 +2,8 @@ class Cars:
     def __init__(self,name,hp,colour):
         self.name=name
         self.colour = colour
-        self.hp = hp
-
+        self.hp = HP
+        
     def myfunc(self):
         print(f"hello car name is {self.name} and the colour is {self.colour}\n horsepower is {self.hp}")
 
